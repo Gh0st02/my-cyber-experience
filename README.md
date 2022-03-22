@@ -24,7 +24,7 @@ This document contains the following details:
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly available, in addition to restricting access to the network.
-- _Adding a Load Balancer helps ensure Avaialability as part of the CIA Triad in the event one of the VMs goes down._
+- _Adding a Load Balancer helps ensure Availability as part of the CIA Triad in the event one of the VMs goes down._
 - _A jumpbox allows for better management of the environment as the NSG was configured to allow inbound access to only one machine via an SSH key pair._
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the sys logs and system system metrics.
