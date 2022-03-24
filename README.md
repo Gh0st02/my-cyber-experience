@@ -24,15 +24,22 @@ This document contains the following details:
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly available, in addition to restricting access to the network.
+
+What aspect of security do load balancers protect?
 - _Adding a Load Balancer helps ensure Availability as part of the CIA Triad in the event one of the VMs goes down._
+
+What is the advantage of a jump box?
 - _A jumpbox allows for better management of the environment as the NSG was configured to allow inbound access to only one machine via an SSH key pair._
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the sys logs and system system metrics.
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the **sys logs** and system **metrics**.
+
+What does Filebeat watch for?
 - _Filebeat is used to collect log files and collect data about specific files on remote machines._
+
+What does Metricbeat record?
 - _Metricbeat collects machine metrics such as uptime and CPU monitoring_
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
@@ -63,11 +70,12 @@ A summary of the access policies in place can be found in the table below.
 
 ### Elk Configuration
 
-Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
+Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because?
 - _In this instance, Ansible allowed me to install DVWA on Web-1 and Web-2 by running one playbook rather than installing it on one VM at a time._
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
+- _Installs docker.io, pip3, and docker python module using the install-elk.yml file._
+- 
 - ...
 - ...
 
@@ -81,10 +89,14 @@ This ELK server is configured to monitor the following machines:
 - _Web-2 10.0.0.6_
 
 We have installed the following Beats on these machines:
-- _I installed Filebeat and Metricbeat_
+- _Filebeat_
+- _Metricbeat_
 
 These Beats allow us to collect the following information from each machine:
-- _Filebeat collects specific pieces of data about the file system such as agent.hostname, log.file.path, and process.pid to name a few.  Metricbeat collects metrics on the monitored machine such as uptime and CPU.  Several examples are system.network.out.packets and system.network.out.bytes._
+- _Filebeat collects specific pieces of data about the file system such as agent.hostname, log.file.path, and process.pid to name a few._ 
+
+
+- _Metricbeat collects metrics on the monitored machine such as uptime and CPU.  Several examples are system.network.out.packets and system.network.out.bytes._
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
