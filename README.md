@@ -102,6 +102,11 @@ The below screenshot shows filebeat traffic on the Elk server.
 
 - _Metricbeat collects metrics on the monitored machine such as uptime and CPU.  Several examples are system.network.out.packets and system.network.out.bytes._
 
+The below screenshot shows metricbeat traffic on the Elk server.
+
+![Project13-Kibana_metricbeat_traffic](https://user-images.githubusercontent.com/96384289/160026234-3c19f28b-5dce-43dc-8026-6bbdbdd1d900.jpeg)
+
+
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
@@ -116,3 +121,5 @@ _TODO: Answer the following questions to fill in the blanks:_
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
 
 - _In order to check that the Elk Server is running go to http://[Elk_VM_Public_IP]:5601/app/kibana_
+
+
