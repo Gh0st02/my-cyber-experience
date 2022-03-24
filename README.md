@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![Project13-Red-Team-Virtual Network](https://user-images.githubusercontent.com/96384289/159584883-0b0e8d75-adde-4c95-bc2b-a0d661b237b5.png)
+![Project13-Red-Team-Virtual Network](https://user-images.githubusercontent.com/96384289/159976770-cccdca5d-cf9d-4a0a-bd75-0f903419ca72.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YML file may be used to install only certain pieces of it, such as Filebeat.
 
