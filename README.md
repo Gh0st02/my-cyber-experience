@@ -95,6 +95,10 @@ We have installed the following Beats on these machines:
 These Beats allow us to collect the following information from each machine:
 - _Filebeat collects specific pieces of data about the file system such as agent.hostname, log.file.path, and process.pid to name a few._ 
 
+The below screenshot shows filebeat traffic on the Elk server.
+
+
+
 
 - _Metricbeat collects metrics on the monitored machine such as uptime and CPU.  Several examples are system.network.out.packets and system.network.out.bytes._
 
