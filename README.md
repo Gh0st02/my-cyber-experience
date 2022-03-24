@@ -97,7 +97,7 @@ These Beats allow us to collect the following information from each machine:
 
 The below screenshot shows filebeat traffic on the Elk server.
 
-
+![Project13-Filebeat_traffic](https://user-images.githubusercontent.com/96384289/160025715-e8a1e61c-b5f2-4fd7-aa14-d3717f411d36.jpeg)
 
 
 - _Metricbeat collects metrics on the monitored machine such as uptime and CPU.  Several examples are system.network.out.packets and system.network.out.bytes._
