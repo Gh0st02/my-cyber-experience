@@ -131,7 +131,7 @@ How do I specify which machine to install the ELK server on versus which to inst
 - _You must update the host file with the IP of the Elk server_.
 
 
-- In order to check that the Elk Server is running go to _http://20.114.247.86:5601/app/kibana_
+- In order to check that the Elk Server is running go to _http://[ELK-Public-IP]:5601/app/kibana_
 
 ![Project13-Kibana_Confirm](https://user-images.githubusercontent.com/96384289/160026533-28b5ae1c-4b2b-4451-9c39-c8f1f7f5428c.jpeg)
 
