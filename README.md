@@ -118,6 +118,7 @@ SSH into the control node and follow the steps below:
 Which file is the playbook? 
 - _filebeat-playbook.yml_
 - _metricbeat-playbook.yml_
+
 Where do you copy it?
 - _The filebeat is copied from /etc/ansible/files/filebeat-config.yml to /etc/filebeat/filebeat.yml_
 
