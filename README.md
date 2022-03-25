@@ -120,7 +120,7 @@ _TODO: Answer the following questions to fill in the blanks:_
 
 - _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
 
-- In order to check that the Elk Server is running go to _http://[20.114.247.86]:5601/app/kibana_
+- In order to check that the Elk Server is running go to _http://20.114.247.86:5601/app/kibana_
 
 ![Project13-Kibana_Confirm](https://user-images.githubusercontent.com/96384289/160026533-28b5ae1c-4b2b-4451-9c39-c8f1f7f5428c.jpeg)
 
