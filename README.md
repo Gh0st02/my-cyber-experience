@@ -71,13 +71,13 @@ A summary of the access policies in place can be found in the table below.
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because?
-- _In this instance, Ansible allowed me to install DVWA on Web-1 and Web-2 by running one playbook rather than installing it on one VM at a time._
+- _Ansible is versatile and can be used to automate tasks and send various scripts from one playbook_.
 
 The playbook implements the following tasks:
-- _Installs docker.io, pip3, and docker python module using the install-elk.yml file._
-- 
-- ...
-- ...
+- _Installs docker.io which is the Docker engine used for running containers_.
+- _Installs python3-pip which is the package used to install Python software_.
+- _Downloads the Docker container called sebp/elk:761. **sebp** is the organization that made the container. **elk** is the container and **761** is the version_.
+- _The task also sets the mv.max_map_count to 262144 which is configured to use more memory and the Elk container will not run without this setting_.
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
@@ -128,7 +128,7 @@ Which file do you update to make Ansible run the playbook on a specific machine?
 - _You update both the filebeat-config.yml and the metricbeat-config.yml_
 
 How do I specify which machine to install the ELK server on versus which to install Filebeat on?
-- _You must update the host file with the IP of the Elk server_.
+- _You must update the host file with the IP of the Elk server and then in the install-elk.yml make sure the host option is set to elk so the tasks should only be run on the machines in the Elk group_.
 
 
 - In order to check that the Elk Server is running go to _http://[ELK-Public-IP]:5601/app/kibana_
