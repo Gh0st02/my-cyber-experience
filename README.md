@@ -115,10 +115,20 @@ SSH into the control node and follow the steps below:
 - Update the hosts file to include the IP address of the Webservers and Elk Server...
 - Run the playbook, and navigate to Web-1, Web-2, and the Elk server to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it?_
+Which file is the playbook? 
+- _filebeat-playbook.yml_
+- _metricbeat-playbook.yml_
+Where do you copy it?
+- _The filebeat is copied from /etc/ansible/files/filebeat-config.yml to /etc/filebeat/filebeat.yml_
 
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
+- _The metricbeat is copied from /etc/ansible/files/metricbeat-config.yml to /etc/metricbeat/metricbeat.yml_
+
+Which file do you update to make Ansible run the playbook on a specific machine?
+- _You update both the filebeat-config.yml and the metricbeat-config.yml_
+
+How do I specify which machine to install the ELK server on versus which to install Filebeat on?
+- _You must update the host file with the IP of the Elk server_.
+
 
 - In order to check that the Elk Server is running go to _http://20.114.247.86:5601/app/kibana_
 
