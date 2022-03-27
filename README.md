@@ -29,7 +29,7 @@ What aspect of security do load balancers protect?
 - _Adding a Load Balancer helps ensure Availability as part of the CIA Triad in the event one of the VMs goes down._
 
 What is the advantage of a jump box?
-- _A jumpbox allows for better management of the environment as the NSG was configured to allow inbound access to only one machine via an SSH key pair._
+- _A jumpbox allows for better management of the environment as the NSG was configured to allow inbound access from only one machine via an SSH key pair._
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the **sys logs** and system **metrics**.
 
