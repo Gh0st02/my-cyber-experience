@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![Project13-Final-Diagram.jpg](/Images/Project13-Final_diagram.jpg)
+![Project13-Final-Diagram.jpg](https://github.com/j-petrycki202/my-cyber-experience/blob/main/ansible/ansible/Images/Project13-Final-Diagram.jpg)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YML file may be used to install only certain pieces of it, such as Filebeat.
 
