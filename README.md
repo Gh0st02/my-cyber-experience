@@ -112,7 +112,7 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
 SSH into the control node and follow the steps below:
 - Copy the config file to Web-1 and Web-2.
-- Update the hosts file to include the IP address of the Webservers and Elk Server...
+- Update the hosts file to include the IP address of the Webservers and Elk Server.
 - Run the playbook, and navigate to Web-1, Web-2, and the Elk server to check that the installation worked as expected.
 
 Which file is the playbook? 
